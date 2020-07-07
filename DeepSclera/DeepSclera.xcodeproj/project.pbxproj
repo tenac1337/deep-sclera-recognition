@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C0729F24B3336300C14C9D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C0729E24B3336300C14C9D /* ImagePicker.swift */; };
+		13C072A324B33CB300C14C9D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C072A224B33CB300C14C9D /* MainViewController.swift */; };
+		13C072A524B3524300C14C9D /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C072A424B3524300C14C9D /* ImagePickerViewController.swift */; };
+		13C072A724B35C1500C14C9D /* ScleraNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C072A624B35C1500C14C9D /* ScleraNavigationController.swift */; };
+		13C072A924B35C5A00C14C9D /* ScleraColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C072A824B35C5A00C14C9D /* ScleraColor.swift */; };
+		13F939DA2499B4E7002D4269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F939D92499B4E7002D4269 /* AppDelegate.swift */; };
+		13F939DC2499B4E7002D4269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F939DB2499B4E7002D4269 /* SceneDelegate.swift */; };
+		13F939DE2499B4E7002D4269 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F939DD2499B4E7002D4269 /* ContentView.swift */; };
+		13F939E02499B4E9002D4269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F939DF2499B4E9002D4269 /* Assets.xcassets */; };
+		13F939E32499B4E9002D4269 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F939E22499B4E9002D4269 /* Preview Assets.xcassets */; };
+		13F939E62499B4E9002D4269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F939E42499B4E9002D4269 /* LaunchScreen.storyboard */; };
+		13F939F12499B4E9002D4269 /* DeepScleraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F939F02499B4E9002D4269 /* DeepScleraTests.swift */; };
+		13F939FC2499B4E9002D4269 /* DeepScleraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F939FB2499B4E9002D4269 /* DeepScleraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F939ED2499B4E9002D4269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F939CE2499B4E7002D4269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F939D52499B4E7002D4269;
+			remoteInfo = DeepSclera;
+		};
+		13F939F82499B4E9002D4269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F939CE2499B4E7002D4269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F939D52499B4E7002D4269;
+			remoteInfo = DeepSclera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13C0729E24B3336300C14C9D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		13C072A224B33CB300C14C9D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		13C072A424B3524300C14C9D /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		13C072A624B35C1500C14C9D /* ScleraNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScleraNavigationController.swift; sourceTree = "<group>"; };
+		13C072A824B35C5A00C14C9D /* ScleraColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScleraColor.swift; sourceTree = "<group>"; };
+		13F939D62499B4E7002D4269 /* DeepSclera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepSclera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F939D92499B4E7002D4269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13F939DB2499B4E7002D4269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13F939DD2499B4E7002D4269 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13F939DF2499B4E9002D4269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F939E22499B4E9002D4269 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13F939E52499B4E9002D4269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13F939E72499B4E9002D4269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F939EC2499B4E9002D4269 /* DeepScleraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepScleraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F939F02499B4E9002D4269 /* DeepScleraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepScleraTests.swift; sourceTree = "<group>"; };
+		13F939F22499B4E9002D4269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F939F72499B4E9002D4269 /* DeepScleraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepScleraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F939FB2499B4E9002D4269 /* DeepScleraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepScleraUITests.swift; sourceTree = "<group>"; };
+		13F939FD2499B4E9002D4269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F939D32499B4E7002D4269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F939E92499B4E9002D4269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F939F42499B4E9002D4269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F939CD2499B4E7002D4269 = {
+			isa = PBXGroup;
+			children = (
+				13F939D82499B4E7002D4269 /* DeepSclera */,
+				13F939EF2499B4E9002D4269 /* DeepScleraTests */,
+				13F939FA2499B4E9002D4269 /* DeepScleraUITests */,
+				13F939D72499B4E7002D4269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F939D72499B4E7002D4269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F939D62499B4E7002D4269 /* DeepSclera.app */,
+				13F939EC2499B4E9002D4269 /* DeepScleraTests.xctest */,
+				13F939F72499B4E9002D4269 /* DeepScleraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F939D82499B4E7002D4269 /* DeepSclera */ = {
+			isa = PBXGroup;
+			children = (
+				13F939D92499B4E7002D4269 /* AppDelegate.swift */,
+				13F939DB2499B4E7002D4269 /* SceneDelegate.swift */,
+				13F939DD2499B4E7002D4269 /* ContentView.swift */,
+				13F939DF2499B4E9002D4269 /* Assets.xcassets */,
+				13F939E42499B4E9002D4269 /* LaunchScreen.storyboard */,
+				13F939E72499B4E9002D4269 /* Info.plist */,
+				13F939E12499B4E9002D4269 /* Preview Content */,
+				13C0729E24B3336300C14C9D /* ImagePicker.swift */,
+				13C072A224B33CB300C14C9D /* MainViewController.swift */,
+				13C072A424B3524300C14C9D /* ImagePickerViewController.swift */,
+				13C072A624B35C1500C14C9D /* ScleraNavigationController.swift */,
+				13C072A824B35C5A00C14C9D /* ScleraColor.swift */,
+			);
+			path = DeepSclera;
+			sourceTree = "<group>";
+		};
+		13F939E12499B4E9002D4269 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				13F939E22499B4E9002D4269 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13F939EF2499B4E9002D4269 /* DeepScleraTests */ = {
+			isa = PBXGroup;
+			children = (
+				13F939F02499B4E9002D4269 /* DeepScleraTests.swift */,
+				13F939F22499B4E9002D4269 /* Info.plist */,
+			);
+			path = DeepScleraTests;
+			sourceTree = "<group>";
+		};
+		13F939FA2499B4E9002D4269 /* DeepScleraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13F939FB2499B4E9002D4269 /* DeepScleraUITests.swift */,
+				13F939FD2499B4E9002D4269 /* Info.plist */,
+			);
+			path = DeepScleraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F939D52499B4E7002D4269 /* DeepSclera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F93A002499B4E9002D4269 /* Build configuration list for PBXNativeTarget "DeepSclera" */;
+			buildPhases = (
+				13F939D22499B4E7002D4269 /* Sources */,
+				13F939D32499B4E7002D4269 /* Frameworks */,
+				13F939D42499B4E7002D4269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepSclera;
+			productName = DeepSclera;
+			productReference = 13F939D62499B4E7002D4269 /* DeepSclera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F939EB2499B4E9002D4269 /* DeepScleraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F93A032499B4E9002D4269 /* Build configuration list for PBXNativeTarget "DeepScleraTests" */;
+			buildPhases = (
+				13F939E82499B4E9002D4269 /* Sources */,
+				13F939E92499B4E9002D4269 /* Frameworks */,
+				13F939EA2499B4E9002D4269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F939EE2499B4E9002D4269 /* PBXTargetDependency */,
+			);
+			name = DeepScleraTests;
+			productName = DeepScleraTests;
+			productReference = 13F939EC2499B4E9002D4269 /* DeepScleraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F939F62499B4E9002D4269 /* DeepScleraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F93A062499B4E9002D4269 /* Build configuration list for PBXNativeTarget "DeepScleraUITests" */;
+			buildPhases = (
+				13F939F32499B4E9002D4269 /* Sources */,
+				13F939F42499B4E9002D4269 /* Frameworks */,
+				13F939F52499B4E9002D4269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F939F92499B4E9002D4269 /* PBXTargetDependency */,
+			);
+			name = DeepScleraUITests;
+			productName = DeepScleraUITests;
+			productReference = 13F939F72499B4E9002D4269 /* DeepScleraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F939CE2499B4E7002D4269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DeepSclera;
+				TargetAttributes = {
+					13F939D52499B4E7002D4269 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					13F939EB2499B4E9002D4269 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 13F939D52499B4E7002D4269;
+					};
+					13F939F62499B4E9002D4269 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 13F939D52499B4E7002D4269;
+					};
+				};
+			};
+			buildConfigurationList = 13F939D12499B4E7002D4269 /* Build configuration list for PBXProject "DeepSclera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F939CD2499B4E7002D4269;
+			productRefGroup = 13F939D72499B4E7002D4269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F939D52499B4E7002D4269 /* DeepSclera */,
+				13F939EB2499B4E9002D4269 /* DeepScleraTests */,
+				13F939F62499B4E9002D4269 /* DeepScleraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F939D42499B4E7002D4269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F939E62499B4E9002D4269 /* LaunchScreen.storyboard in Resources */,
+				13F939E32499B4E9002D4269 /* Preview Assets.xcassets in Resources */,
+				13F939E02499B4E9002D4269 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F939EA2499B4E9002D4269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F939F52499B4E9002D4269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F939D22499B4E7002D4269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F939DA2499B4E7002D4269 /* AppDelegate.swift in Sources */,
+				13C0729F24B3336300C14C9D /* ImagePicker.swift in Sources */,
+				13F939DC2499B4E7002D4269 /* SceneDelegate.swift in Sources */,
+				13C072A724B35C1500C14C9D /* ScleraNavigationController.swift in Sources */,
+				13F939DE2499B4E7002D4269 /* ContentView.swift in Sources */,
+				13C072A924B35C5A00C14C9D /* ScleraColor.swift in Sources */,
+				13C072A324B33CB300C14C9D /* MainViewController.swift in Sources */,
+				13C072A524B3524300C14C9D /* ImagePickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F939E82499B4E9002D4269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F939F12499B4E9002D4269 /* DeepScleraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F939F32499B4E9002D4269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F939FC2499B4E9002D4269 /* DeepScleraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F939EE2499B4E9002D4269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F939D52499B4E7002D4269 /* DeepSclera */;
+			targetProxy = 13F939ED2499B4E9002D4269 /* PBXContainerItemProxy */;
+		};
+		13F939F92499B4E9002D4269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F939D52499B4E7002D4269 /* DeepSclera */;
+			targetProxy = 13F939F82499B4E9002D4269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13F939E42499B4E9002D4269 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F939E52499B4E9002D4269 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13F939FE2499B4E9002D4269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13F939FF2499B4E9002D4269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F93A012499B4E9002D4269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepSclera/Preview Content\"";
+				DEVELOPMENT_TEAM = 4GQCV58ED7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DeepSclera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsclera.DeepSclera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13F93A022499B4E9002D4269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DeepSclera/Preview Content\"";
+				DEVELOPMENT_TEAM = 4GQCV58ED7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DeepSclera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsclera.DeepSclera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13F93A042499B4E9002D4269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GQCV58ED7;
+				INFOPLIST_FILE = DeepScleraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsclera.DeepScleraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepSclera.app/DeepSclera";
+			};
+			name = Debug;
+		};
+		13F93A052499B4E9002D4269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GQCV58ED7;
+				INFOPLIST_FILE = DeepScleraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsclera.DeepScleraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepSclera.app/DeepSclera";
+			};
+			name = Release;
+		};
+		13F93A072499B4E9002D4269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GQCV58ED7;
+				INFOPLIST_FILE = DeepScleraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsclera.DeepScleraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepSclera;
+			};
+			name = Debug;
+		};
+		13F93A082499B4E9002D4269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GQCV58ED7;
+				INFOPLIST_FILE = DeepScleraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepsclera.DeepScleraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeepSclera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F939D12499B4E7002D4269 /* Build configuration list for PBXProject "DeepSclera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F939FE2499B4E9002D4269 /* Debug */,
+				13F939FF2499B4E9002D4269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F93A002499B4E9002D4269 /* Build configuration list for PBXNativeTarget "DeepSclera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F93A012499B4E9002D4269 /* Debug */,
+				13F93A022499B4E9002D4269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F93A032499B4E9002D4269 /* Build configuration list for PBXNativeTarget "DeepScleraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F93A042499B4E9002D4269 /* Debug */,
+				13F93A052499B4E9002D4269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F93A062499B4E9002D4269 /* Build configuration list for PBXNativeTarget "DeepScleraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F93A072499B4E9002D4269 /* Debug */,
+				13F93A082499B4E9002D4269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F939CE2499B4E7002D4269 /* Project object */;
+}
